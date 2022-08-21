@@ -10,14 +10,20 @@ function writeCards(names, msg) {
 }
 
 
-function countDown(number){
+// function countDown(number){
 
-    if(number <= 0){
-        return
-    }
+//     if(number <= 0){
+//         return
+//     }
 
-    for (let i = number; i >= 0 ;  i--){
-        console.log(i);
+//     for (let i = number; i >= 0 ;  i--){
+//         console.log(i);
+//     }
+// }
+
+function countDown (number) {
+    while (number >= 0) {
+        console.log(number);
+        number--;
     }
 }
-
